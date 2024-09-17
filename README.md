@@ -13,7 +13,7 @@ git clone https://github.com/0nhc/hackathon_python_challenges.git
 
 ### 1.2 Install Python dependencies
 ```sh
-cd hackathon_pyhotn_challenges
+cd hackathon_python_challenges
 pip3 install -r requirements.txt
 ```
 ## 2. Demo
