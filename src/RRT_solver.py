@@ -124,6 +124,10 @@ class RRTSolver:
         b2x=b2[0]
         b2y=b2[1]
         
+        # Because the WALL node position is int format,
+        # but the tree nodes' positions are float format,
+        # we have to make sure the space between two points 
+        # is larger than 1 (the unit of one node in a 2D matrix)
         if(abs(b1x-b2x) < 1.1):
             if(b1x<b2x):
                 b1x-=1
@@ -145,7 +149,8 @@ class RRTSolver:
             else:
                 b1y-=1
                 b2y+=1
-                
+            
+        # Detect whether p is in the bounding box of b1 and b2
         result = (np.abs(px-b1x)+np.abs(px-b2x) == np.abs(b1x-b2x)
                   and
                   np.abs(py-b1y)+np.abs(py-b2y) == np.abs(b1y-b2y))
