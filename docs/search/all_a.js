@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tree_0',['Tree',['../classtree_1_1Tree.html',1,'tree']]],
-  ['treenode_1',['TreeNode',['../classdata__structure_1_1TreeNode.html',1,'data_structure']]]
+  ['install_20python_20dependencies_0',['1.2 Install Python dependencies',['../index.html#autotoc_md3',1,'']]],
+  ['installation_1',['1. Installation',['../index.html#autotoc_md1',1,'']]]
 ];

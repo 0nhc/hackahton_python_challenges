@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dfssolver_0',['DFSSolver',['../classDFS__solver_1_1DFSSolver.html',1,'DFS_solver']]]
+  ['3_20documentation_0',['3. Documentation',['../index.html#autotoc_md5',1,'']]]
 ];

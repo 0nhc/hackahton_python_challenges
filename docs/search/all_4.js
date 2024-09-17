@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hexagonalmaze_0',['HexagonalMaze',['../classmaze_1_1HexagonalMaze.html',1,'maze']]]
+  ['bfssolver_0',['BFSSolver',['../classBFS__solver_1_1BFSSolver.html',1,'BFS_solver']]]
 ];
